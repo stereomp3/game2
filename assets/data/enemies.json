@@ -1,0 +1,69 @@
+{
+  "enemies": [
+    {
+      "id": "slime",
+      "max_hp": 40,
+      "armor": 0,
+      "move_speed": 50,
+      "melee_dmg": 8,
+      "ranged_dmg": 0,
+      "attack_speed": 0.7,
+      "size_x": 36,
+      "size_y": 36,
+      "sprite_path": "entities/enemies/slime.png",
+      "color_hex": "FF81C784"
+    },
+    {
+      "id": "bat",
+      "max_hp": 25,
+      "armor": 0,
+      "move_speed": 130,
+      "melee_dmg": 12,
+      "ranged_dmg": 0,
+      "attack_speed": 1.2,
+      "size_x": 32,
+      "size_y": 28,
+      "sprite_path": "entities/enemies/bat.png",
+      "color_hex": "FFAB47BC"
+    },
+    {
+      "id": "golem",
+      "max_hp": 200,
+      "armor": 0.15,
+      "move_speed": 35,
+      "melee_dmg": 20,
+      "ranged_dmg": 0,
+      "attack_speed": 0.4,
+      "size_x": 56,
+      "size_y": 56,
+      "sprite_path": "entities/enemies/golem.png",
+      "color_hex": "FF757575"
+    },
+    {
+      "id": "spitter",
+      "max_hp": 35,
+      "armor": 0,
+      "move_speed": 60,
+      "melee_dmg": 5,
+      "ranged_dmg": 15,
+      "attack_speed": 0.5,
+      "size_x": 38,
+      "size_y": 38,
+      "sprite_path": "entities/enemies/spitter.png",
+      "color_hex": "FFAFB42B"
+    },
+    {
+      "id": "charger",
+      "max_hp": 60,
+      "armor": 0.05,
+      "move_speed": 90,
+      "melee_dmg": 25,
+      "ranged_dmg": 0,
+      "attack_speed": 0.6,
+      "size_x": 44,
+      "size_y": 44,
+      "sprite_path": "entities/enemies/charger.png",
+      "color_hex": "FFD32F2F"
+    }
+  ]
+}

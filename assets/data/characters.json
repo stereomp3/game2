@@ -1,0 +1,182 @@
+{
+  "characters": [
+    {
+      "id": "novice",
+      "name_key": "char_novice",
+      "desc_key": "char_novice_desc",
+      "type": "balanced",
+      "is_free": true,
+      "starting_weapon": "longsword",
+      "base_stats": {
+        "max_hp": 100,
+        "hp_regen": 1,
+        "lifesteal": 0,
+        "armor": 5,
+        "dodge": 5,
+        "move_speed": 110,
+        "melee_dmg": 10,
+        "ranged_dmg": 10,
+        "elemental_dmg": 5,
+        "attack_speed": 1.0,
+        "crit_chance": 5,
+        "crit_damage": 150,
+        "range": 100,
+        "knockback": 10,
+        "cooldown_reduction": 0,
+        "pickup_radius": 50,
+        "luck": 0,
+        "debuff_duration": 100,
+        "status_effectiveness": 100
+      },
+      "passive": {
+        "description_key": "char_novice_desc",
+        "effect": "all_stats_per_level",
+        "value": 1
+      }
+    },
+    {
+      "id": "pyromaniac",
+      "name_key": "char_pyromaniac",
+      "desc_key": "char_pyromaniac_desc",
+      "type": "elemental",
+      "is_free": true,
+      "starting_weapon": "flamethrower",
+      "base_stats": {
+        "max_hp": 90,
+        "hp_regen": 1,
+        "lifesteal": 0,
+        "armor": 3,
+        "dodge": 5,
+        "move_speed": 105,
+        "melee_dmg": 7,
+        "ranged_dmg": 7,
+        "elemental_dmg": 15,
+        "attack_speed": 1.0,
+        "crit_chance": 5,
+        "crit_damage": 150,
+        "range": 90,
+        "knockback": 5,
+        "cooldown_reduction": 0,
+        "pickup_radius": 50,
+        "luck": 0,
+        "debuff_duration": 100,
+        "status_effectiveness": 100
+      },
+      "passive": {
+        "description_key": "char_pyromaniac_desc",
+        "effect": "burn_bonus",
+        "burn_dmg_bonus": 50,
+        "burn_chance": 20,
+        "physical_dmg_penalty": -30
+      }
+    },
+    {
+      "id": "ninja",
+      "name_key": "char_ninja",
+      "desc_key": "char_ninja_desc",
+      "type": "agility",
+      "is_free": false,
+      "starting_weapon": "dagger",
+      "base_stats": {
+        "max_hp": 60,
+        "hp_regen": 0,
+        "lifesteal": 0,
+        "armor": 2,
+        "dodge": 30,
+        "move_speed": 135,
+        "melee_dmg": 12,
+        "ranged_dmg": 8,
+        "elemental_dmg": 0,
+        "attack_speed": 1.4,
+        "crit_chance": 20,
+        "crit_damage": 180,
+        "range": 80,
+        "knockback": 5,
+        "cooldown_reduction": 0,
+        "pickup_radius": 50,
+        "luck": 5,
+        "debuff_duration": 100,
+        "status_effectiveness": 100
+      },
+      "passive": {
+        "description_key": "char_ninja_desc",
+        "effect": "dodge_shuriken",
+        "shuriken_count": 3,
+        "shuriken_bleed": true
+      }
+    },
+    {
+      "id": "tank",
+      "name_key": "char_tank",
+      "desc_key": "char_tank_desc",
+      "type": "defense",
+      "is_free": false,
+      "starting_weapon": "spiky_shield",
+      "base_stats": {
+        "max_hp": 180,
+        "hp_regen": 2,
+        "lifesteal": 0,
+        "armor": 20,
+        "dodge": 0,
+        "move_speed": 80,
+        "melee_dmg": 8,
+        "ranged_dmg": 5,
+        "elemental_dmg": 0,
+        "attack_speed": 0.7,
+        "crit_chance": 3,
+        "crit_damage": 130,
+        "range": 60,
+        "knockback": 15,
+        "cooldown_reduction": 0,
+        "pickup_radius": 40,
+        "luck": 0,
+        "debuff_duration": 100,
+        "status_effectiveness": 100
+      },
+      "passive": {
+        "description_key": "char_tank_desc",
+        "effect": "reflect_armor",
+        "reflect_multiplier": 100,
+        "immune_knockback": true,
+        "immune_slow": true,
+        "speed_penalty": -20
+      }
+    },
+    {
+      "id": "alchemist",
+      "name_key": "char_alchemist",
+      "desc_key": "char_alchemist_desc",
+      "type": "debuffer",
+      "is_free": false,
+      "starting_weapon": "venom_slingshot",
+      "base_stats": {
+        "max_hp": 85,
+        "hp_regen": 1,
+        "lifesteal": 0,
+        "armor": 4,
+        "dodge": 5,
+        "move_speed": 100,
+        "melee_dmg": 6,
+        "ranged_dmg": 10,
+        "elemental_dmg": 12,
+        "attack_speed": 0.9,
+        "crit_chance": 5,
+        "crit_damage": 150,
+        "range": 120,
+        "knockback": 5,
+        "cooldown_reduction": 0,
+        "pickup_radius": 50,
+        "luck": 5,
+        "debuff_duration": 200,
+        "status_effectiveness": 120
+      },
+      "passive": {
+        "description_key": "char_alchemist_desc",
+        "effect": "debuff_transfer",
+        "debuff_duration_multiplier": 200,
+        "transfer_on_death": true,
+        "transfer_radius": 200
+      }
+    }
+  ]
+}
